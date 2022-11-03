@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotRequestApi", "BotRequestApi\BotRequestApi.csproj", "{A4916A13-3CE6-430E-A1D6-C71283EB09A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotRequestApi", "BotRequestApi\BotRequestApi.csproj", "{A4916A13-3CE6-430E-A1D6-C71283EB09A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E2A95C4F-4DF7-4E43-A63E-68E8A9D514F5}"
 EndProject
@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{31C8EF8A-D844-4569-9B5E-14F69ACBFC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AD24C0A8-50DD-4C4C-B1CB-06E4DC17BE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{AD24C0A8-50DD-4C4C-B1CB-06E4DC17BE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{54409E89-8C64-4ECB-8308-D9A29C1FF5DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{54409E89-8C64-4ECB-8308-D9A29C1FF5DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{6A40D92F-1834-4EAF-BE2D-4B25661050D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{6A40D92F-1834-4EAF-BE2D-4B25661050D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML", "ML\ML.csproj", "{AD9C716B-5F07-444E-878F-3857E8B0AA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML", "ML\ML.csproj", "{AD9C716B-5F07-444E-878F-3857E8B0AA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AD9C716B-5F07-444E-878F-3857E8B0AA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD9C716B-5F07-444E-878F-3857E8B0AA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD9C716B-5F07-444E-878F-3857E8B0AA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{54409E89-8C64-4ECB-8308-D9A29C1FF5DD} = {E2A95C4F-4DF7-4E43-A63E-68E8A9D514F5}
 		{6A40D92F-1834-4EAF-BE2D-4B25661050D0} = {E0A07FDB-E94B-41BF-A851-C8CCD86DC772}
 		{AD9C716B-5F07-444E-878F-3857E8B0AA23} = {E0A07FDB-E94B-41BF-A851-C8CCD86DC772}
+		{8AE04C1B-B1F4-4008-B24F-BC4F866BA65E} = {E0A07FDB-E94B-41BF-A851-C8CCD86DC772}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B35015F5-81CA-4D3A-82C3-95FFD2E34B7A}

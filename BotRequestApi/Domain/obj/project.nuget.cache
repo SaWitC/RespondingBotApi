@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NnZNndbNFMPOYc+2DgejXgUbWVGtmWbCtBMqobmCCC9aAUBBVjeVz5Ml3Y/hz1Lu5rj9wg7uxqL1WVMkOHcusw==",
+  "dgSpecHash": "ANgt9Evdks6s+ABnRqROelzcaPq6+A7fSBdJQRB4HZ+yRhYadNb3G8iurM/tvZVhi6xVgvRDXzGhaHs+LlkwNA==",
   "success": true,
-  "projectFilePath": "D:\\проекты\\BotRequestApi\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Downloads\\RespondingBotApi\\BotRequestApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.ml\\1.7.1\\microsoft.ml.1.7.1.nupkg.sha512",

@@ -1,4 +1,6 @@
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Services.Services;
 
 namespace BotRequestApi.Controllers
 {
@@ -21,6 +23,8 @@ namespace BotRequestApi.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            MlService.UpdateMlContext();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
@@ -28,6 +32,17 @@ namespace BotRequestApi.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [HttpGet("GetRequest/{message}")]
+        public IActionResult GetRequest(string message)
+        {
+            
+            RequestModel model = new RequestModel();
+            model.Message = message;
+
+            var res =MlService.GetResponse(model);
+
+            return Ok(res.Message);
         }
     }
 }

@@ -5703,11 +5703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\проекты\\BotRequestApi\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Downloads\\RespondingBotApi\\BotRequestApi\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\проекты\\BotRequestApi\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\USER\\Downloads\\RespondingBotApi\\BotRequestApi\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\проекты\\BotRequestApi\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Downloads\\RespondingBotApi\\BotRequestApi\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
